@@ -64,7 +64,7 @@ ollama list
 
 ### Basic Usage
 ```bash
-python reddit_persona_generator.py
+python main.py
 ```
 
 The application will prompt you for:
@@ -90,7 +90,7 @@ Enter Reddit Client Secret: your_client_secret
 
 ```
 Reddit-user-persona-generator/
-├── reddit_persona_generator.py    # Main application
+├── main.py                       # Main application
 ├── requirements.txt               # Python dependencies
 ├── README.md                     # This file
 ├── scraped_data/                 # Scraped Reddit data (JSON)
@@ -147,7 +147,7 @@ Generated on: 2024-01-15 14:30:22
 
 ## 🔧 Configuration
 
-### Constants (in `reddit_persona_generator.py`)
+### Constants (in `main.py`)
 - `DEFAULT_POST_LIMIT`: Number of posts/comments to scrape (default: 100)
 - `MISTRAL_MODEL`: AI model to use (default: "mistral")
 - `DEFAULT_USER_AGENT`: Reddit API user agent string
@@ -254,3 +254,8 @@ For additional support, please create an issue in the repository with:
 - Steps to reproduce the issue
 - Your environment details (OS, Python version, etc.)
 
+---
+
+**Version**: 2.0  
+**Author**: AI Assistant  
+**Last Updated**: 2024
