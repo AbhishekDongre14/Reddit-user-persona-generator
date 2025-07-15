@@ -253,9 +253,4 @@ For additional support, please create an issue in the repository with:
 - Error messages from logs
 - Steps to reproduce the issue
 - Your environment details (OS, Python version, etc.)
-
----
-
-**Version**: 2.0  
-**Author**: AI Assistant  
-**Last Updated**: 2024
+ 
